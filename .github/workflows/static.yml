@@ -27,7 +27,7 @@ jobs:
     if: github.repository == 'EmulatorJS/EmulatorJS'
     environment:
       name: github-pages
-      url: "https://demo.emulatorjs.org"
+      url: "https://weberit.github.io/"
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
